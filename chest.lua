@@ -1,9 +1,3 @@
--- Change this line:
-local isFarming = false
-
--- To this:
-local isFarming = true
-
 -- Create the ScreenGui
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "FlammersScriptsChestFarm"
@@ -57,7 +51,7 @@ ToggleButton.Size = UDim2.new(0, 280, 0, 50)
 ToggleButton.Position = UDim2.new(0.5, -140, 0.5, -25)
 ToggleButton.BackgroundColor3 = Color3.fromRGB(100, 100, 100)
 ToggleButton.TextColor3 = Color3.fromRGB(255, 255, 255)
-ToggleButton.Text = "Toggle Chest Farm (OFF)"
+ToggleButton.Text = "Toggle Chest Farm (ON)"
 ToggleButton.Font = Enum.Font.SourceSansBold
 ToggleButton.TextScaled = true
 ToggleButton.Parent = Frame
@@ -85,7 +79,7 @@ ModeLabel.TextScaled = true
 ModeLabel.Parent = Frame
 
 -- Variables to control the script
-local isFarming = false
+local isFarming = true
 local player = game.Players.LocalPlayer
 local chests = game.Workspace:WaitForChild("Chests")
 
