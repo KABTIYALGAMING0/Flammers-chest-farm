@@ -1,3 +1,9 @@
+-- Change this line:
+local isFarming = false
+
+-- To this:
+local isFarming = true
+
 -- Create the ScreenGui
 local ScreenGui = Instance.new("ScreenGui")
 ScreenGui.Name = "FlammersScriptsChestFarm"
